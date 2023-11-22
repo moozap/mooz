@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "./build",
+    "rootDir": "./src",
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
+    "emitDeclarationOnly": true,
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "module": "es2015",
+    "moduleResolution": "Bundler",
+    "noImplicitReturns": true,
+    "pretty": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": false,
+    "target": "ES2021",
+    "lib": ["ES2021", "dom"],
+    "paths": {},
+    "jsx": "react-jsx"
+  },
+  "include": ["src"],
+  "exclude": [
+    "src/test/**/*.ts",
+    "src/**/*.test.ts",
+    "src/**/test.ts"
+  ],
+  "references": []
+}

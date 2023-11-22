@@ -1,0 +1,31 @@
+{
+  "name": "mooz",
+  "entryPoints": [
+    "src/index.ts"
+  ],
+  "entryPointStrategy": "resolve",
+  "out": "./docs",
+  "exclude": ["src/test/**/*.ts", "src/**/*.test.ts", "src/**/test.ts"],
+  "readme": "readme.md",
+  "plugin": ["typedoc-plugin-mdn-links"],
+  "visibilityFilters": {
+    "protected": false,
+    "private": false,
+    "inherited": false,
+    "external": true
+  },
+  "hideParameterTypesInTitle": true,
+  "hideGenerator": true,
+  "sort": ["alphabetical"],
+  "categorizeByGroup": false,
+  "categoryOrder": [],
+  "defaultCategory": "General",
+  "navigation": {
+    "includeCategories": true,
+    "includeGroups": false
+  },
+  "navigationLinks": {
+    "GitHub": "https://github.com/"
+  },
+  "sidebarLinks": {},
+}

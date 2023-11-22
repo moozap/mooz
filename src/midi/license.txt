@@ -1,0 +1,1 @@
+Encode and decode based on https://github.com/carter-thaxton/midi-file ISC license

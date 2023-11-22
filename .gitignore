@@ -1,0 +1,9 @@
+build
+docs
+node_modules
+tsconfig.tsbuildinfo
+
+# Always use latest commit on composer/npm/yarn update
+composer.lock
+package-lock.json
+yarn.lock
