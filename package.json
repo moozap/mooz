@@ -10,6 +10,7 @@
     "format": "roll format",
     "docs": "typedoc"
   },
+  "homepage": "https://github.com/moozap/mooz",
   "keywords": [],
   "author": "",
   "license": "ISC",
