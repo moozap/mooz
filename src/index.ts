@@ -1,5 +1,5 @@
 /**
- * [Home page](/)
+ * [Home page](.)
  * @module mooz
  */
 import * as AudioContext from './audio-context'
