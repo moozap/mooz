@@ -2,6 +2,8 @@
 
 This library aims to support the authoring of music-related multimedia content on the web, such as articles, books, and courses for music education.
 
+[API Documentation](https://moozap.github.io/mooz)
+
 ## Install
 
 ```sh
